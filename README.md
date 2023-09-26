@@ -14,7 +14,6 @@ Para instalar as dependências, você pode usar o gerenciador de pacotes Python 
 ``` Terminal
 pip install -r requirements.txt
 ```
-OU, você poderá acessar meu arquivo requirements também
 
 ## Observação:
 Certifique-se de verificar regularmente se há atualizações para essas dependências e mantenha seu ambiente virtual ou projeto atualizado
