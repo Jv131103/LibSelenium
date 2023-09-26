@@ -46,6 +46,7 @@ Acesse o diretório do projeto e digite:
 .\Libs\Scripts\Activate.ps1
 ```
 
+###  Linux / macOS (Bash)
 ``` Linux / macOS (Bash)
 source Libs/bin/activate
 ```
