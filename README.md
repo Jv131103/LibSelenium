@@ -47,6 +47,7 @@ Acesse o diretório do projeto e digite:
 ```
 
 ###  Linux / macOS (Bash)
+No caso do Bash `tome as precauções com seus dirs`, para conseguir acessos, mais adiante um projeto apenas para Linux do Gecko e do Chrome serão implementados
 ``` Linux / macOS (Bash)
 source Libs/bin/activate
 ```
