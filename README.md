@@ -21,10 +21,18 @@ Certifique-se de verificar regularmente se há atualizações para essas depend�
 
 # Ativação do Ambiente Virtual
 
+Crie um arquivo Virtual:
+
+    -De preferência crie seu ambiente chamado Libs, pois assim será executado
+
+``` Terminal
+python -m venv Libs
+```
+
 Este arquivo fornece instruções sobre como ativar o ambiente virtual para o seu projeto em diferentes sistemas operacionais.
 
 ## Windows (CMD)
-
+Caso criou o nome como indicado anteriormente para nosso desenvolvimento, você pode iniciar de forma automatizada o digitando no nosso terminal.
 ### Terminal DOS/CMD
 Acesse o diretório do projeto e digite:
 ``` batch CMD
@@ -38,19 +46,30 @@ Acesse o diretório do projeto e digite:
 
 ### PS: Mais adiante um .sh do Linux tb será implementado
 
-## Caso não queira acessar de forma automatizada o meu ambiente Virtual, você pode fazer o seguinte:
+## Caso não queira acessar de forma automatizada o meu ambiente Virtual ou não tenha inserido o nome do ambiente como indiquei, você pode fazer o seguinte:
 
 ### Windows (PowerShell)
 Acesse o diretório do projeto e digite:
 ``` Power Shell
 .\Libs\Scripts\Activate.ps1
+echo "OU com o nome da sua máquina:"
+.\<Nome de Seu Ambiente>\Scripts\Activate.ps1
 ```
 
 ###  Linux / macOS (Bash)
 No caso do Bash `tome as precauções com seus dirs`, para conseguir acessos, mais adiante um projeto apenas para Linux do Gecko e do Chrome serão implementados
 ``` Linux / macOS (Bash)
 source Libs/bin/activate
+echo "OU com o nome da sua máquina:"
+source <Nome de Seu Ambiente>\bin\activate
 ```
+
+## Caso queira fechar a sua execução:
+Em ambos terminais
+``` Terminal
+deactivate
+```
+
 Certifique-se de que você está no diretório raiz do seu projeto antes de executar esses comandos.
 
 Lembre-se de que, no Windows, você pode usar tanto o CMD quanto o PowerShell, dependendo da sua preferência.
